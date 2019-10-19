@@ -1,0 +1,42 @@
+body {
+	background-color: #141414;
+	  height: 100vh;
+}
+  
+label, input, button {
+	  padding: 5px;
+}
+  
+#container {
+	display: flex;
+	  flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	  overflow: hidden;
+}
+  
+#button-container {
+	  display: flex;
+	  flex-direction: row;
+	  
+}
+  
+#slider-container {
+	  display: flex;
+	  align-items: center;
+	  background: #FFF;
+	  border-radius: 90px;
+	  margin: 1rem;
+}
+  
+.btn {
+	  margin: 0 1rem 0 1rem; 
+}
+  
+canvas {
+		padding: 1rem;
+		height: 75vh;
+		width: 80%;
+		border: 3px #CCC solid;
+}
+  
